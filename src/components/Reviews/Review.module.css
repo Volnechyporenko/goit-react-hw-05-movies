@@ -1,0 +1,8 @@
+.reviewList {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.reviewItem h3 {
+  color: brown;
+}

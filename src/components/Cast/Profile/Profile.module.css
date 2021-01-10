@@ -1,0 +1,28 @@
+.actorCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 5px;
+  background-color: rgb(228, 227, 227);
+  border-radius: 12px;
+}
+
+.actorCard p {
+  margin: 5px 5px;
+}
+
+.image {
+  display: block;
+  max-width: 92px;
+  height: auto;
+}
+
+.noFoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92px;
+  height: 111px;
+  border: 1px solid rgb(51, 51, 51);
+}

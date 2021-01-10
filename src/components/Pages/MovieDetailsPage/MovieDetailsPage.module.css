@@ -1,0 +1,73 @@
+.goBack {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  background-color: rgb(248, 248, 248);
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.image {
+  display: block;
+  max-width: 342px;
+}
+
+.noPoster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 342px;
+  height: 513px;
+  background-color: rgb(248, 248, 248);
+}
+
+.containerRight {
+  margin-left: 20px;
+}
+
+.genres {
+}
+
+.genreItem {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 0 2px;
+  background-color: rgb(241, 105, 105);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.adInfo {
+  list-style: square;
+}
+
+.adInfoItem {
+  padding: 2px;
+}
+
+.adInfoItem:hover {
+  background-color: rgb(248, 248, 248);
+}
+
+.adInfoLink {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  font-weight: 500;
+}
+
+.adInfoItem:hover > .adInfoLink {
+  color: rgb(241, 105, 105);
+}
