@@ -1,6 +1,7 @@
 .actorsList {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0 20px;
 }
